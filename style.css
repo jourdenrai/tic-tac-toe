@@ -1,25 +1,62 @@
 
 body{
     background-color: #222;
-    color: grey;
+    color: lightsalmon;
     text-align: center;
+}
+span{
+    color: lightsalmon;
+}
+h1{
+    color: aqua;
+    font-size: 50px;
+    /* opacity: .75; */
+}
+#blue{
+    color: aqua;
 }
 #board{
-    width: 166px;
+    width: 690px;
+    height: 630px;
     display: inline-block;
-    background-color: #222;
+    background-color: transparent;
+    border-radius: 0px;
+}
+button{
+    border-radius: 600px;;
+    border: solid thin aqua;
+    width: 150px;
+    height: 50px;
+    font-size: 13px;
+    background-color: transparent;
+    color: aqua;
+    /* opacity: .5; */
+
+}
+button:hover{
+    /* opacity: .75; */
+    background-color: lightsalmon;
+
+}
+.element:hover{
+    /* opacity: .75; */
+    background-color:lightsalmon ;
+    border: solid aqua;
 }
 .element{
-    padding-top: 20px;
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    color: white;
+
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+     /* opacity: .8;  */
+    color: #222;
     text-align: center;
     margin: auto;
+    border: solid lightsalmon;
     margin-top: 5px;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 600px;
     margin-left: 3px;
+    font-size: 150px;
     vertical-align: top;
 }
